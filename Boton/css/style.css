@@ -1,0 +1,27 @@
+.Buscar{
+    border-radius: 10px;
+    margin: 15px;
+    width: 100px;
+    
+
+}
+.mas{
+    border-radius: 50%;
+    background-color: rgb(246, 99, 46);
+    color: white;
+    width: 40px;
+    height: 40px;
+    border: none;
+    
+
+    
+}
+.crear-cuenta{
+    width: 100px;
+    height: 40px;
+    background-color: skyblue;
+    color: white;
+    margin: 0%;
+    border: none;
+
+}

@@ -1,0 +1,138 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /*line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;*/
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    
+}
+
+header h1 {
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+}
+button{
+    background-color: #b5e5cf;
+    padding: 10px 20px;
+    color: #000;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12px;
+    border: 1px solid #ccc; 
+    transition: background-color 0.3s ease;
+    
+}
+
+ .container {
+    background-color: #fff;
+    width: 650px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    margin:2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    
+} 
+
+.card-img {
+    width: 650px;
+    height: 100px;
+    background:#b5e5cf;
+    display: flex;
+    
+    align-items: center;
+    position: relative;
+    padding: 70px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.card-img img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid white; 
+    position: absolute;
+    bottom: -60px; 
+}
+
+.card-content {
+    margin-top: 60px;
+    
+    
+}
+p {
+    color: grey;
+    margin: 70px; 
+}
+
+h4 {
+    color: grey;
+    margin: 70px ; 
+}
+
+.card-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+h1 {
+    margin: 70px; 
+    
+}
+
+.button {
+    padding: 10px 20px;
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid #ccc; 
+    transition: background-color 0.3s ease;
+    margin: 70px; 
+}
+
+.button:hover {
+    background-color: #f0f0f0;
+}
+
+

@@ -1,0 +1,154 @@
+.container-amarillo{
+    height: 1186px;
+    width: 1000px;
+    background-color:#062134; 
+    margin: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
+}
+header{
+    display: flex;
+}
+nav ul{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+   
+}
+.navibar a{
+   margin: 10px; 
+}
+
+h1{
+    color: #1789d1;
+    padding-right: 30px;
+    font-size: 28px;
+    margin: 10px;
+    
+    font-weight: 400;
+}
+span{
+    color: white;
+}
+.nav-bar{
+    height: 60px;
+    width: 980px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+main{
+    background-color: white;
+    margin: 20px 20px 0px 20px;
+    padding: 16px;
+    column-gap: 16px;
+}
+.card-img>img{
+    width: 920px;
+}
+main>section {
+    min-height: 100%;
+    display: flex;
+ 
+}
+.seccion-naranjo{
+        height: 320px;
+        width: 920px;
+        color: white;
+        background-color:white;
+        display: flex;
+        flex-direction: row;  
+}
+.info-box>img{
+    height: 44px;
+    width: 44px;
+    box-sizing: border-box;
+    background-color:white;
+    border-radius: 50%;
+    transform: translate(0px, 0px); 
+    margin: 10px;
+}
+.card-content{
+    background-color: #1789d1;
+    margin: 10px 0px 10px 10px;
+}
+.card-content>p{
+    text-align:left;
+    margin: 20px;
+    font-size: 11px; 
+    
+}
+.card-content>h3{
+    font-size: px;
+    margin-top: 10px;
+    margin: 10px;
+}
+.btn-info>button{
+    background-image: linear-gradient(to bottom, #55b3ee 50%, #1a94e1 50%);
+    margin: 20px;
+    border-radius: 5%;
+    height: 40px;
+    width: 110px;
+    color:white;
+    border: none;
+}
+.btn-info:hover{
+    background-color: #1789d1;
+}
+.ultima-seccion{
+        height: 240px;
+        width: 930px;
+        display: flex;
+        flex-direction: row;  
+        background-color: white;      
+}
+.card-content-texto{
+    transform: translate(0px, 35px); 
+}
+.card-content-texto>p{
+    font-size: 9px;
+    margin: 20px;
+
+}
+.btn-learn{
+    border: none;
+    color:  #309bdf;
+    background-color: white;
+    margin-left: 15px;
+    
+}
+.content-testimonial>p{
+    font-size: 14px;
+    background-color: #9bc8f378;
+    margin-right: 10px;
+    padding: 30px;
+    
+}
+.content-testimonial>h6{
+    font-weight: 10px;
+}
+.footer{
+    background-color: #daedff;
+    display: flex;
+    border-top: black solid 1px;
+    margin: 0px 20px 0px 20px;
+    justify-content: center;
+}
+.footer>ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex; 
+}
+.footer>ul>li{
+    margin: 20px; 
+    color: #6795b7;
+}
